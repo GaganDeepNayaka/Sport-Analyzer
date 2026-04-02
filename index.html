@@ -1793,8 +1793,8 @@ function generateInsights(players) {
   const topBowler = [...players].sort((a,b)=>b.wk-a.wk)[0];
 
   return `
-  🔥 ${best.name} is the best overall performer with rating ${best.rating}.
-  🎯 ${topBowler.name} is leading in bowling with ${topBowler.wk} wickets.
+  🔥 ${best.name} is the best overall performer with rating ${best.rating}.\n
+  🎯 ${topBowler.name} is leading in bowling with ${topBowler.wk} wickets.\n
   📊 Teams rely heavily on all-rounders for balance.
   `;
 }
